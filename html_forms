@@ -8,25 +8,25 @@
   <body>
     <form action="">
       <label for="name">Name:</label>
-      <input type="text" id="name" name="name" placeholder="Enter your name"/><br>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required/><br>
 
       <label for="date of birth">Date of birth:</label>
-      <input type="date" id="date of birth" name="Date of birth" placeholder="dd/mm/yy"/><br>
+      <input type="date" id="date of birth" name="Date of birth" placeholder="dd/mm/yy" required/><br>
 
       <label for="gender">Gender:</label>
-      <input type="text" id="gender" name="Gender" placeholder="Enter your gender"/><br>
+      <input type="text" id="gender" name="Gender" placeholder="Enter your gender" required/><br>
 
       <label for="address">Address:</label>
-      <input type="address" id="address" name="Address" placeholder="example P.O BOX 2977-00100"/><br>
+      <input type="address" id="address" name="Address" placeholder="example P.O BOX 2977-00100" required/><br>
 
       <label for="telephone">Telephone:</label>
       <input type="tel" id="telephone" name="Telephone" placeholder="+25479000000"/><br>
       
       <label for="email address">Email Address:</label>
-      <input type="email" id="email address" name="Email address" placeholder="example@gmail.com"/><br>
+      <input type="email" id="email address" name="Email address" placeholder="example@gmail.com" required/><br>
 
       <label for="course">Course</label>
-      <input type="course" id="course" name="Course" placeholder="Example BA in project management"/><br>
+      <input type="course" id="course" name="Course" placeholder="Example BA in project management" required/><br>
 
       <button type="submit"></button>
 
